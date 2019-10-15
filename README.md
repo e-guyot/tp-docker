@@ -4,7 +4,7 @@
 
 
 ```bash
-docker run -ti -p 8080:80 --name tp-docker -v /var/www/html:/var/www/html image 
+docker run -ti -p 8888:80 --name tp-docker -v /var/www/html:/var/www/html image 
 ```
 
 ## Lancement du fichier docker compose
