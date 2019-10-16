@@ -4,8 +4,7 @@
 
 
 ```bash
-docker run -ti -p 8888:80 --name tp-docker -v /var/www/html:/var/www/html image 
-docker run -v $pwd/src/:/var/www/html -p 8888:80 --name=tp_docker php:apache
+docker run -d -p 8888:80 --name tp_docker -v  ~/Documents/git/tp-docker:/var/www/html php:7.0-apache
 ```
 
 ## Lancement du fichier docker compose
